@@ -1,4 +1,4 @@
 defraw
 ======
 
-smal arcede game, written in C++
+smal arcade game, written in C++
