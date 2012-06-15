@@ -1,0 +1,10 @@
+Location::Location(Game* p){
+    parent = p;
+}
+
+Menu::Menu(Game* p):Location(p){
+    background = SDL_LoadBMP("backgrou.bmp")
+    playbtn = new Button(
+}
+
+
