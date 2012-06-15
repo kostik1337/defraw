@@ -10,7 +10,6 @@ protected:
 public:
     float level,radius;
     float x,y;
-    //virtual void process() = 0;
     virtual void draw() = 0;
 };
 

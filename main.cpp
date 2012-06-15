@@ -7,7 +7,6 @@
 #include "objects.h"//my includes
 #include "locations.h"
 #include "main.h"
-#include "defines.h"
 
 Game::Game(){
     atexit(SDL_Quit);
@@ -22,13 +21,13 @@ Game::Game(){
     }
     srand(time(NULL));
     SDL_WM_SetCaption("defraw",NULL);
+    l = new Menu(this);
+    current = to = menu;
 }
 
 void Game::run(){
     bool done=false;
     SDL_Event event;
-    l = new Menu(this);
-    current = to = menu;
     while (!done){
         if(current!=to){
             delete l;

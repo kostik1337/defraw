@@ -73,7 +73,6 @@ void Enemy::process(){
 }
 
 void Enemy::draw(){
-    filledCircleColor(scr, x, y, radius, 0x000000FF);
     aacircleColor(scr, x, y, radius, 0x0000FFFF);
 }
 

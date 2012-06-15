@@ -1,3 +1,5 @@
+#include "defines.h"
+
 enum loc {menu,game,end};
 
 class Game{
@@ -8,7 +10,6 @@ public:
     SDL_Surface *screen;
     Score *score;
     Game();
-    //~Game();
     void run();
     void change_loc(loc);
 };
