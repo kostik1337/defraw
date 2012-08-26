@@ -10,7 +10,7 @@ protected:
     float vx, vy;
 public:
     float level,radius;
-    Uint32 color;
+    
     float x,y;
     virtual void draw() = 0;
 };

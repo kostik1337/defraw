@@ -27,7 +27,6 @@ protected:
     Enemies *enemies;
     float acc;
     char keypress[4];
-    bool run;
 public:
     GameLoc(Game*);
     virtual ~GameLoc();

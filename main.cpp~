@@ -50,7 +50,7 @@ void Game::run(){
                 }
             break;
             default:
-                l->event(&event);
+                if(run) l->event(&event);
                 break;
             }
         l->draw();

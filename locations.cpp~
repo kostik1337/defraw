@@ -78,10 +78,9 @@ void GameLoc::event(SDL_Event* e){
         else if(e->key.keysym.sym==SDLK_LEFT) keypress[2]=1;
         else if(e->key.keysym.sym==SDLK_RIGHT) keypress[3]=1;
         else if(e->key.keysym.sym==SDLK_ESCAPE) parent->change_loc(end);
-        else if(e->key.keysym.sym==SDLK_SPACE){
+        else if(e->key.keysym.sym==SDLK_SPACE) {
             run=!run;
             if(run==false) stringColor(parent->screen, WIDTH/2-10, HEIGHT/2, "pause", 0xFFFFFFFF);
-        }
         break;
     }
 }
