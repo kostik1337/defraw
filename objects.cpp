@@ -64,11 +64,10 @@ Enemy::Enemy(float lv, SDL_Surface* screen){
     float v = rand()%3+2;
     vx = v*cos(angle*PI/180);
     vy = v*sin(angle*PI/180);
-    Uint8 r,g,b,qwe;
+    Uint8 r,g,b;
     r = 30+rand()%0xAF;
     g = 30+rand()%0xAF;
     b = 30+rand()%0xAF;
-    r*=qwe; g*=qwe; b*=qwe;
     color = r<<24|g<<16|b<<8|0xFF;
 }
 
