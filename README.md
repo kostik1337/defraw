@@ -14,7 +14,7 @@ Simply do
 and then run
 `./defraw`
 
-CONTROLS
+Controls
 ===
 - arrow keys - control the red circle
 - q - exit
